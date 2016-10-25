@@ -1,4 +1,4 @@
-.PHONY: setup start stop
+.PHONY: setup start stop test
 
 API_TOKEN=$(shell cat api_token)
 
@@ -15,3 +15,6 @@ start:
 
 stop:
 	forever stopall
+
+test:
+	npm test
