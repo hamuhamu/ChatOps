@@ -4,7 +4,7 @@ Botkitを使ったChatOps
 
 ## Udage
 
-api_tokenファイルにAPIトークンを格納
+api_tokenファイルを作成しAPIトークンを格納
 
 ```
 # 起動
