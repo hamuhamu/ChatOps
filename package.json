@@ -1,0 +1,19 @@
+{
+  "name": "ChatOps",
+  "version": "1.0.0",
+  "description": "ChatOps用のリポジトリ",
+  "main": "slack_bot.js",
+  "dependencies": {
+    "shuffle-array": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.geniee.jp:yuki-ohashi/ChatOps.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
