@@ -1,19 +1,14 @@
 'use strict';
 
 let assert = require('power-assert');
-let closure = require('erande.js');
+let Erande = require('erande.js');
 
-suite('クロージャ', function() {
-    test('1回目の呼び出しでは1を返すこと', function() {
-        let counter = closure();
+suite('選んで', function() {
 
-        assert.strictEqual(counter(), 1);
+    test('お肉を選ぶこと', function() {
+        let erande = new Erande();
+
+        assert.strictEqual(erande.randomize('選んで お肉'), 'お肉を選んだ');
     });
 
-    test('2回目の呼び出しでは1を返すこと', function() {
-        let counter = closure();
-        counter();
-
-        assert.strictEqual(counter(), 2);
-    });
 });
