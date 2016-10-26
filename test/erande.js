@@ -1,7 +1,7 @@
 'use strict';
 
 let assert = require("power-assert");
-let closure = require("Closure.js");
+let closure = require("erande.js");
 
 suite('クロージャ', function() {
     test('1回目の呼び出しでは1を返すこと', function() {
