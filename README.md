@@ -2,7 +2,7 @@
 
 Botkitを使ったChatOps
 
-## Udage
+## Usage
 
 api_tokenファイルを作成しAPIトークンを格納
 
