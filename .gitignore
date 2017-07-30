@@ -1,3 +1,4 @@
 botkit/
 node_modules/
 api_token
+.idea/
