@@ -2,6 +2,8 @@
 
 Botkitを使ったChatOps
 
+@see http://qiita.com/nobukatsu/items/88917a2348628244bc42
+
 ## Usage
 
 api_tokenファイルを作成しAPIトークンを格納
