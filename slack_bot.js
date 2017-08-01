@@ -30,7 +30,7 @@ controller.hears(['hello', 'hi'], [EVENT_DIRECT_MENTION, EVENT_MENTION], functio
 
 /**
  * ランダムでサイコロ振りたいときに使う
- * ex) 選んで A B C　D
+ * ex) 選んで A B C D
  * 区切り文字に半角か全角の空文字
  */
 controller.hears(['選んで (.*)'], EVENT_DIRECT_MENTION ,function(bot, message) {
